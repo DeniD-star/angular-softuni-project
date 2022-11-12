@@ -12,7 +12,7 @@ import { ThemeComponent } from './theme/theme.component';
   ],
   imports: [
     BrowserModule,
-    CoreModule
+    CoreModule//poneje httpclientmodule e vlu4en v coremodule, di conseguenza potremo usare v app componenta http
   ],
   providers: [],
   bootstrap: [AppComponent]
